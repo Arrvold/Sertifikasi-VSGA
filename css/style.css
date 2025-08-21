@@ -1,0 +1,114 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #444;
+}
+
+.navbar {
+    transition: background-color 0.3s ease-in-out;
+}
+.navbar-brand img {
+    height: 45px;
+}
+
+.hero-section {
+    background: url('../img/er_1.jpg') no-repeat center;
+    background-size: cover;
+    color: white;
+    padding: 200px 0;
+    text-align: center;
+}
+
+
+section {
+    padding: 60px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.footer {
+    background-color: #343a40;
+    color: #f8f9fa;
+    padding: 40px 0;
+}
+
+.footer p {
+    margin-bottom: 0;
+}
+
+#about {
+    background-color: #fff; 
+    padding: 80px 20px;
+    border-radius: 10px;
+}
+
+#about h3 {
+    color: #333;
+}
+
+.stat-item h4 {
+    font-size: 2.5rem;
+    margin-bottom: 0;
+}
+
+.icon-blue {
+    color: #0d6efd; 
+}
+
+.icon-green {
+    color: #198754; 
+}
+
+.icon-yellow {
+    color: #ffc107; 
+}
+
+.icon-red {
+    color: #dc3545; 
+}
+
+.auth-body {
+    background-image: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+.auth-container {
+    background-color: #ffffff;
+    padding: 2.5rem;
+    border-radius: 1rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+}
+
+.input-group-text {
+    background-color: #f8f9fa;
+    border-right: 0;
+}
+
+.form-control:focus {
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+    border-color: #86b7fe;
+}
+
+.form-control {
+    border-left: 0;
+}
